@@ -1,0 +1,14 @@
+.pages {
+    list-style-type: none;
+} 
+
+    .pages li {
+        display: inline;
+        margin: 5px 8px;
+        cursor: pointer;
+    }
+
+
+    .pages li.page-current {
+        color: red;
+    }
